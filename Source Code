@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    double base, exponent, result = 1.0;
+
+    // Get user input for base and exponent
+    printf("Enter base number: ");
+    scanf("%lf", &base);
+
+    printf("Enter exponent number: ");
+    scanf("%lf", &exponent);
+
+    // Calculate power using a loop
+    for (int i = 1; i <= exponent; i++) {
+        result *= base;
+    }
+
+    // Display the result
+    printf("%.2lf ^ %.0lf = %.2lf\n", base, exponent, result);
+
+    return 0;
+}
