@@ -1,1 +1,1 @@
-# Power-Calculator
+This repository contains a simple C program that calculates the power of a given base raised to a specified exponent. The program prompts the user to input the base and exponent, utilizes a loop to perform the calculation, and then displays the result. With clear comments for easy comprehension, this code serves as a fundamental example for power calculation in C.
